@@ -17,10 +17,10 @@ const text=document.querySelector(".text");
 const TIME_LIMIT=20;
 let gameStat="loading";
 let isLookingBackward=true;
-var sound1=new Audio('/music/sq.mp3');
+var sound1=new Audio('/sounds/sq.mp3');
 sound1.loop=true;
-var sound2=new Audio('/music/shoot.mp3');
-var sound3=new Audio('/music/round.mp3');
+var sound2=new Audio('/sounds/shoot.mp3');
+var sound3=new Audio('/sounds/round.mp3');
 
 
 function createCube(size,positionX,rotY=0,color=0xfbc851){
